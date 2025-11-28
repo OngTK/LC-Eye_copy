@@ -1,0 +1,109 @@
+{
+  "pjno": 300002,
+  "pjname": "폐지 배출량",
+  "mno": 20002,
+  "pjamount": 800.0,
+  "uno": 40111,
+  "uname": "kg",
+  "pjdesc": "사무실에서 발생하는 폐지 총량 (800 kg)",
+  "createdate": "2025-11-17 10:10:09",
+  "updatedate": "2025-11-17 10:10:09",
+  "exchanges": [
+    {
+      "pjename": "종이",
+      "pjeamount": 640.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "02c170e2-fc66-47a6-9a0d-28499e791ae7",
+      "pname": "treatment of sewage sludge, 70% water, WWT-SLF, waste graphical paper, municipal incineration | electricity, for reuse in municipal waste incineration only"
+    },
+    {
+      "pjename": "종이",
+      "pjeamount": 40.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "02c170e2-fc66-47a6-9a0d-28499e791ae7",
+      "pname": "treatment of sewage sludge, 70% water, WWT-SLF, waste graphical paper, municipal incineration | electricity, for reuse in municipal waste incineration only"
+    },
+    {
+      "pjename": "용제",
+      "pjeamount": 4.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "10a3ddde-5d1e-4a3d-8a0b-98f679727063",
+      "pname": "methanol to generic market for solvent for chromatography analysis | solvent for chromatography analysis"
+    },
+    {
+      "pjename": "윤활유",
+      "pjeamount": 2.4,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "013f645a-7d32-47f2-8bb1-ee7a50950763",
+      "pname": "treatment of bottom ash, MSWI, residue from mechanical treatment, laptop computer, slag compartment | bottom ash, MSWI, residue from mechanical treatment, laptop computer"
+    },
+    {
+      "pjename": "종이",
+      "pjeamount": 32.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "02c170e2-fc66-47a6-9a0d-28499e791ae7",
+      "pname": "treatment of sewage sludge, 70% water, WWT-SLF, waste graphical paper, municipal incineration | electricity, for reuse in municipal waste incineration only"
+    },
+    {
+      "pjename": "폴리에틸렌",
+      "pjeamount": 8.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "0023d685-38fb-410f-a5d9-657e66070432",
+      "pname": "market for alkylbenzene sulfonate, linear, petrochemical | alkylbenzene sulfonate, linear, petrochemical"
+    },
+    {
+      "pjename": "촉매",
+      "pjeamount": 0.8,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "013f645a-7d32-47f2-8bb1-ee7a50950763",
+      "pname": "treatment of bottom ash, MSWI, residue from mechanical treatment, laptop computer, slag compartment | bottom ash, MSWI, residue from mechanical treatment, laptop computer"
+    },
+    {
+      "pjename": "종이",
+      "pjeamount": 8.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "02c170e2-fc66-47a6-9a0d-28499e791ae7",
+      "pname": "treatment of sewage sludge, 70% water, WWT-SLF, waste graphical paper, municipal incineration | electricity, for reuse in municipal waste incineration only"
+    },
+    {
+      "pjename": "종이류 제품",
+      "pjeamount": 600.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": null,
+      "pname": null
+    },
+    {
+      "pjename": "종이",
+      "pjeamount": 160.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": "02c170e2-fc66-47a6-9a0d-28499e791ae7",
+      "pname": "treatment of sewage sludge, 70% water, WWT-SLF, waste graphical paper, municipal incineration | electricity, for reuse in municipal waste incineration only"
+    },
+    {
+      "pjename": "혼합폐기물",
+      "pjeamount": 24.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": "013f645a-7d32-47f2-8bb1-ee7a50950763",
+      "pname": "treatment of bottom ash, MSWI, residue from mechanical treatment, laptop computer, slag compartment | bottom ash, MSWI, residue from mechanical treatment, laptop computer"
+    },
+    {
+      "pjename": "슬러지",
+      "pjeamount": 8.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": "00cdda61-77a2-41c5-8ead-559b651e7aa0",
+      "pname": "treatment of sewage sludge, 70% water, WWT, WW from liquid crystal production, municipal incineration | heat, for reuse in municipal waste incineration only"
+    }
+  ]
+}

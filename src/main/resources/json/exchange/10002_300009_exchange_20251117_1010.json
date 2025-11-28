@@ -1,0 +1,109 @@
+{
+  "pjno": 300009,
+  "pjname": "금속 원자재 투입량",
+  "mno": 20004,
+  "pjamount": 2000.0,
+  "uno": 40111,
+  "uname": "kg",
+  "pjdesc": "주요 금속 원료 투입량 (2,000 kg)",
+  "createdate": "2025-11-17 10:10:09",
+  "updatedate": "2025-11-17 10:10:09",
+  "exchanges": [
+    {
+      "pjename": "강재",
+      "pjeamount": 1700.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "0062c603-b260-404c-ad71-1be13b0bf297",
+      "pname": "market for chromium steel removed by turning, average, computer numerical controlled | chromium steel removed by turning, average, computer numerical controlled"
+    },
+    {
+      "pjename": "윤활유",
+      "pjeamount": 40.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "013f645a-7d32-47f2-8bb1-ee7a50950763",
+      "pname": "treatment of bottom ash, MSWI, residue from mechanical treatment, laptop computer, slag compartment | bottom ash, MSWI, residue from mechanical treatment, laptop computer"
+    },
+    {
+      "pjename": "용제",
+      "pjeamount": 20.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "10a3ddde-5d1e-4a3d-8a0b-98f679727063",
+      "pname": "methanol to generic market for solvent for chromatography analysis | solvent for chromatography analysis"
+    },
+    {
+      "pjename": "종이",
+      "pjeamount": 40.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "02c170e2-fc66-47a6-9a0d-28499e791ae7",
+      "pname": "treatment of sewage sludge, 70% water, WWT-SLF, waste graphical paper, municipal incineration | electricity, for reuse in municipal waste incineration only"
+    },
+    {
+      "pjename": "폴리에틸렌",
+      "pjeamount": 40.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "0023d685-38fb-410f-a5d9-657e66070432",
+      "pname": "market for alkylbenzene sulfonate, linear, petrochemical | alkylbenzene sulfonate, linear, petrochemical"
+    },
+    {
+      "pjename": "촉매",
+      "pjeamount": 4.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "013f645a-7d32-47f2-8bb1-ee7a50950763",
+      "pname": "treatment of bottom ash, MSWI, residue from mechanical treatment, laptop computer, slag compartment | bottom ash, MSWI, residue from mechanical treatment, laptop computer"
+    },
+    {
+      "pjename": "용제",
+      "pjeamount": 10.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "10a3ddde-5d1e-4a3d-8a0b-98f679727063",
+      "pname": "methanol to generic market for solvent for chromatography analysis | solvent for chromatography analysis"
+    },
+    {
+      "pjename": "강재",
+      "pjeamount": 2.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "0062c603-b260-404c-ad71-1be13b0bf297",
+      "pname": "market for chromium steel removed by turning, average, computer numerical controlled | chromium steel removed by turning, average, computer numerical controlled"
+    },
+    {
+      "pjename": "금속 부품 제품",
+      "pjeamount": 1500.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": null,
+      "pname": null
+    },
+    {
+      "pjename": "강재",
+      "pjeamount": 240.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": "0062c603-b260-404c-ad71-1be13b0bf297",
+      "pname": "market for chromium steel removed by turning, average, computer numerical controlled | chromium steel removed by turning, average, computer numerical controlled"
+    },
+    {
+      "pjename": "혼합폐기물",
+      "pjeamount": 60.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": "013f645a-7d32-47f2-8bb1-ee7a50950763",
+      "pname": "treatment of bottom ash, MSWI, residue from mechanical treatment, laptop computer, slag compartment | bottom ash, MSWI, residue from mechanical treatment, laptop computer"
+    },
+    {
+      "pjename": "슬러지",
+      "pjeamount": 10.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": "00cdda61-77a2-41c5-8ead-559b651e7aa0",
+      "pname": "treatment of sewage sludge, 70% water, WWT, WW from liquid crystal production, municipal incineration | heat, for reuse in municipal waste incineration only"
+    }
+  ]
+}

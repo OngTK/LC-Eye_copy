@@ -1,0 +1,70 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.5.7'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+description = 'LC-Eye'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // [1] 스프링 시큐리티
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    // [2] Lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    // [3] 스프링 웹
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // [4] MySQL JDBC
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    // [5] MyBatis
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.5'
+    // [6] AOP 관점지향 프로그래밍
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+    // [7] NoSQL REDIS
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    // [8] JPA
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // [9] JWT
+    implementation 'io.jsonwebtoken:jjwt-api:0.12.6'
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.12.6'
+    runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.12.6'
+    // [10] Apache Commons Text(유사도 측정 라이브러리)
+    implementation 'org.apache.commons:commons-text:1.11.0'
+    // [11] Jackson 기본 ObjectMapper의 localDateTime 직렬화 해결을 위한 라이브러리
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+    // [12] Redisson
+    implementation 'org.redisson:redisson-spring-boot-starter:3.52.0'
+    // [13] Redis Session
+    implementation 'org.springframework.session:spring-session-data-redis'
+    // [14] AWS S3
+    implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
+    // [15] Apache POI (마이크로소프트 오피스 InOut 처리 라이브러리)
+    implementation 'org.apache.poi:poi:5.5.0'
+    implementation 'org.apache.poi:poi-ooxml:5.5.0'
+    // [16] WebSocket
+    implementation 'org.springframework:spring-websocket'
+    // [17] WebClient
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

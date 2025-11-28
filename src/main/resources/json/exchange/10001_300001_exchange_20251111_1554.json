@@ -1,0 +1,29 @@
+{
+  "pjno": 300001,
+  "pjname": "제재목 침엽수",
+  "mno": 20002,
+  "pjamount": 1,
+  "uno": "40111",
+  "uname": "kg",
+  "pjdesc": "2024 목재제품 LCI DB 구축 대상 1",
+  "createdate": "2025-11-11 15:54:34",
+  "updatedate": "2025-11-11 15:54:34",
+  "exchanges": [
+    {
+      "pjename": "PET밴드 PET",
+      "pjeamount": 220.558577027325,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "a5d486ee-6469-4a2a-a19a-39cf7a1a50d3",
+      "pname": "polyethylene terephthalate, granulate, amorphous, recycled to generic market for amorphous PET granulate"
+    },
+    {
+      "pjename": "LPG",
+      "pjeamount": 496.735566200443,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "ec2a0a68-020c-486f-b40d-e9f9e481deb1",
+      "pname": "market for liquefied petroleum gas | liquefied petroleum gas"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+.headButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.headButton> :nth-child(1) {
+    margin-right: 0.5rem;
+}
+
+.unitSelectArea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unitSelectArea> :nth-child(1),
+.unitSelectArea> :nth-child(2) {
+    width: 49%;
+}
+
+.bottomMargin {
+    margin-bottom: 0.75rem;
+}
+
+.projectLabel {
+    font-size: 1rem !important;
+}

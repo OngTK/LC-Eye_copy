@@ -1,0 +1,80 @@
+.loginRouter {
+    border: 1rem solid rgba(238, 238, 238, 0.5);
+    border-radius: 3rem;
+    width: 160vh;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+/* ============================== leftSection ============================== */
+.leftSection {
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginLogoBox {
+    display: flex;
+}
+
+.loginLogoBox img {
+    width: 20rem;
+    margin-right: 1rem;
+}
+
+.loginSectionText .mainText {
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #2F3E77;
+}
+
+.loginSectionText .subText {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #555555;
+}
+
+/* ============================== rightSection ============================== */
+.rightSection {
+    width: 40%;
+    text-align: center;
+}
+
+.rightSection img {
+    width: 15rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.rightSection .inputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightSection .loginInput {
+    width: 20rem;
+    height: 3rem;
+    margin: 0.8rem;
+}
+
+.rightSection .inputBox Button {
+    margin-top: 1rem;
+    width: 6rem;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.loginCheckingText {
+    font-size: 1.2rem;
+    font-weight: 600;
+}

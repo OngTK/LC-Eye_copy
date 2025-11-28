@@ -1,0 +1,109 @@
+{
+  "pjno": 300006,
+  "pjname": "건조 공정 원료 투입량",
+  "mno": 20003,
+  "pjamount": 1500.0,
+  "uno": 40111,
+  "uname": "kg",
+  "pjdesc": "건조 공정 투입 원료량 (1.5 t)",
+  "createdate": "2025-11-17 10:10:09",
+  "updatedate": "2025-11-17 10:10:09",
+  "exchanges": [
+    {
+      "pjename": "폴리프로필렌",
+      "pjeamount": 825.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "013071a5-12b5-493e-8991-84621c4bcf86",
+      "pname": "market for maintenance, intermodal shipping container, 45-foot, high-cube | maintenance, intermodal shipping container, 45-foot, high-cube"
+    },
+    {
+      "pjename": "폴리에틸렌",
+      "pjeamount": 375.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "0023d685-38fb-410f-a5d9-657e66070432",
+      "pname": "market for alkylbenzene sulfonate, linear, petrochemical | alkylbenzene sulfonate, linear, petrochemical"
+    },
+    {
+      "pjename": "종이",
+      "pjeamount": 75.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "02c170e2-fc66-47a6-9a0d-28499e791ae7",
+      "pname": "treatment of sewage sludge, 70% water, WWT-SLF, waste graphical paper, municipal incineration | electricity, for reuse in municipal waste incineration only"
+    },
+    {
+      "pjename": "용제",
+      "pjeamount": 15.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "10a3ddde-5d1e-4a3d-8a0b-98f679727063",
+      "pname": "methanol to generic market for solvent for chromatography analysis | solvent for chromatography analysis"
+    },
+    {
+      "pjename": "윤활유",
+      "pjeamount": 12.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "013f645a-7d32-47f2-8bb1-ee7a50950763",
+      "pname": "treatment of bottom ash, MSWI, residue from mechanical treatment, laptop computer, slag compartment | bottom ash, MSWI, residue from mechanical treatment, laptop computer"
+    },
+    {
+      "pjename": "촉매",
+      "pjeamount": 4.5,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "013f645a-7d32-47f2-8bb1-ee7a50950763",
+      "pname": "treatment of bottom ash, MSWI, residue from mechanical treatment, laptop computer, slag compartment | bottom ash, MSWI, residue from mechanical treatment, laptop computer"
+    },
+    {
+      "pjename": "종이",
+      "pjeamount": 30.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "02c170e2-fc66-47a6-9a0d-28499e791ae7",
+      "pname": "treatment of sewage sludge, 70% water, WWT-SLF, waste graphical paper, municipal incineration | electricity, for reuse in municipal waste incineration only"
+    },
+    {
+      "pjename": "폴리에틸렌",
+      "pjeamount": 30.0,
+      "isInput": true,
+      "uname": "kg",
+      "puuid": "0023d685-38fb-410f-a5d9-657e66070432",
+      "pname": "market for alkylbenzene sulfonate, linear, petrochemical | alkylbenzene sulfonate, linear, petrochemical"
+    },
+    {
+      "pjename": "건조공정 투입물 제품",
+      "pjeamount": 1125.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": null,
+      "pname": null
+    },
+    {
+      "pjename": "혼합폐기물",
+      "pjeamount": 45.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": "013f645a-7d32-47f2-8bb1-ee7a50950763",
+      "pname": "treatment of bottom ash, MSWI, residue from mechanical treatment, laptop computer, slag compartment | bottom ash, MSWI, residue from mechanical treatment, laptop computer"
+    },
+    {
+      "pjename": "슬러지",
+      "pjeamount": 15.0,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": "00cdda61-77a2-41c5-8ead-559b651e7aa0",
+      "pname": "treatment of sewage sludge, 70% water, WWT, WW from liquid crystal production, municipal incineration | heat, for reuse in municipal waste incineration only"
+    },
+    {
+      "pjename": "강재",
+      "pjeamount": 7.5,
+      "isInput": false,
+      "uname": "kg",
+      "puuid": "0062c603-b260-404c-ad71-1be13b0bf297",
+      "pname": "market for chromium steel removed by turning, average, computer numerical controlled | chromium steel removed by turning, average, computer numerical controlled"
+    }
+  ]
+}
